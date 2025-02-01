@@ -1,1 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CkLXocZO)
+class Solution {
+    public boolean rotateString(String s, String goal) {
+
+    
+        
+        if (s.length() != goal.length()) {
+            return false;
+        }
+        String doubledS = s + s;
+        return doubledS.contains(goal);
+    }
+}
+
+OutPut
+
+![image](https://github.com/user-attachments/assets/851ab30e-1f1d-4830-abc7-0710e1c347bb)
